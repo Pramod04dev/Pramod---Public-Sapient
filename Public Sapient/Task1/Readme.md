@@ -15,5 +15,7 @@ terraform init -backend-config="bucket=S3 bucket to store state files" \
 
 terraform plan -var-file=dev.tfvars ${tf_override_vars} \
             -out .terraform/latest-plan -no-color'
+            
+Validate terraform plan with all resources that are going to add.
 
 terraform apply --input=false .terraform/latest-plan -no-color
