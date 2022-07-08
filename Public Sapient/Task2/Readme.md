@@ -20,4 +20,4 @@ docker logs <container ID>          //to check the logs of the container
   
 curl http://localhost:8080          //to access the docker application that we have created
   
-docker exec -it <containerID> sh    //to enter into the docker container
+docker exec -it ${containerID} sh    //to enter into the docker container
