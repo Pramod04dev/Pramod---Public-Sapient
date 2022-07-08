@@ -11,3 +11,7 @@ kubectl apply -f deployment.yaml
 to list the pods use command below
 
 kubectl get pods -n ${name of the namespace}
+
+To list the deployments use the command below
+
+kubectl get deployments -n ${name of the namespace}
