@@ -4,9 +4,9 @@ EKS with AWS MANAGED WORKER NODE
 
 Below are the terraform commands to execute.
 
-terraform init -backend-config="bucket=<S3 bucket to store state files>" \
-            -backend-config="key=<path and file name for the statefile>" \
-            -backend-config="region=<AWS region of the S3 bucket>" \
+terraform init -backend-config="bucket=S3 bucket to store state files" \
+            -backend-config="key=path and file name for the statefile" \
+            -backend-config="region=AWS region of the S3 bucket" \
             -backend=true \
             -force-copy \
             -get=true \
